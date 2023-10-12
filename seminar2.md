@@ -10,7 +10,7 @@
         tar -zxf hadoop-*.tar.gz -C ./hadoop
         mv hadoop/ hadoop-3.3.1 /usr/local/hadoop
 
-3.	Создаем для Hadoop отдельную группу и юзера (пароль поставим hduser):
+3.	Создаем для Hadoop отдельную группу и юзера:
 
         sudo addgroup hadoopgroup
         sudo adduser -ingroup hadoopgroup hduser
